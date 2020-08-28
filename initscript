@@ -1,2 +1,7 @@
 #!/bin/bash
 echo this is my pre-init script
+echo loooping forever to test signalhandler
+while true; do
+    sleep 1
+    echo looping ...
+done
